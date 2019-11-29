@@ -1,0 +1,122 @@
+body {
+    
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-top: 100px;
+    position: relative;
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#numero{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+i {
+    font-size: 50px;    
+    font-weight: 700;
+}
+
+#Diamante1{
+
+    margin-left: 25px;
+    margin-top: 10px;
+    color: tomato;
+}
+#Diamante2{
+    margin-top: 95px;
+    margin-left: 150px;
+    margin-right: 20px;
+    color: tomato;
+    transform: rotate(180deg);
+}
+
+#Diamante1::before {
+    content: "\2666";
+    font-size: 4em;
+  }
+
+#Diamante2::before {
+    content: "\2666";
+    font-size: 4em;
+  }
+  
+
+#Picas1{
+
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#Picas2{
+    margin-top: 95px;
+    margin-left: 150px;
+    margin-right: 20px;
+    transform: rotate(180deg);
+}
+
+#Picas1::before {
+    content: "\2660";
+    font-size: 4em;
+  }
+
+#Picas2::before {
+    content: "\2660";
+    font-size: 4em;
+  }
+
+#Corazon1{
+
+    margin-left: 25px;
+    margin-top: 10px;
+    color: tomato;
+}
+#Corazon2{
+    margin-top: 95px;
+    margin-left: 150px;
+    margin-right: 20px;
+    color: tomato;
+    transform: rotate(180deg);
+}
+
+#Corazon1::before {
+    content: "\2665";
+    font-size: 4em;
+  }
+
+#Corazon2::before {
+    content: "\2665";
+    font-size: 4em;
+    
+  }
+
+    
+#Trebol1{
+
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#Trebol2{
+    margin-top: 95px;
+    margin-left: 150px;
+    margin-right: 20px;
+    transform: rotate(180deg);
+}
+
+#Trebol1::before {
+    content: "\2663";
+    font-size: 4em;
+  }
+
+#Trebol2::before {
+    content: "\2663";
+    font-size: 4em;
+  }
+  
